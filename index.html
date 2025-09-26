@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Parth — Portfolio</title>
+    <meta name="description" content="Parth — Aspiring Computer Engineer | AIML Enthusiast | Problem Solver" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Small custom tweaks to match the dark gradient look */
+      body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+    </style>
+  </head>
+  <body class="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white antialiased">
+    <div class="max-w-5xl mx-auto p-6">
+      <header class="flex items-center justify-between">
+        <div>
+          <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight">Parth</h1>
+          <p class="text-sm text-gray-300 mt-1">Aspiring Computer Engineer • AIML Enthusiast • Problem Solver</p>
+        </div>
+        <nav class="space-x-4 hidden md:flex">
+          <a href="#about" class="text-gray-300 hover:text-indigo-300">About</a>
+          <a href="#projects" class="text-gray-300 hover:text-indigo-300">Projects</a>
+          <a href="#skills" class="text-gray-300 hover:text-indigo-300">Skills</a>
+          <a href="#contact" class="text-gray-300 hover:text-indigo-300">Contact</a>
+        </nav>
+      </header>
+
+      <main class="px-0 pb-24">
+        <!-- Hero -->
+        <section class="flex flex-col md:flex-row items-center gap-8 md:gap-16 py-10">
+          <div class="flex-1">
+            <h2 class="text-4xl md:text-5xl font-bold leading-tight">Hi — I'm Parth.</h2>
+            <p class="mt-4 text-gray-300 max-w-xl">
+              2nd Year B.Tech Computer Engineering student at IAR College (Batch 2023–2027). I build AI/ML
+              projects, solve algorithmic problems, and design full-stack applications. Currently focusing on
+              AIML, DSA, and data-driven dashboards.
+            </p>
+
+            <div class="mt-6 flex gap-4">
+              <a href="#projects" class="inline-block px-5 py-3 rounded-2xl bg-indigo-600 hover:bg-indigo-500 font-medium shadow-lg">View Projects</a>
+              <a href="#contact" class="inline-block px-5 py-3 rounded-2xl border border-gray-700 hover:border-indigo-500 font-medium">Contact Me</a>
+            </div>
+
+            <div class="mt-6 text-sm text-gray-400"><strong>Location:</strong> India • <strong>Open to:</strong> Internships & Remote Opportunities</div>
+          </div>
+
+          <div class="w-56 h-56 md:w-72 md:h-72 rounded-2xl bg-gradient-to-br from-gray-800 to-gray-700 flex items-center justify-center border border-gray-700">
+            <div class="text-center">
+              <div class="w-28 h-28 md:w-32 md:h-32 rounded-full bg-indigo-600 flex items-center justify-center text-2xl font-bold">P</div>
+              <p class="mt-2 text-xs text-gray-300">Parth — Computer Engineering</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- About + Experience -->
+        <section id="about" class="grid grid-cols-1 md:grid-cols-3 gap-8 py-8">
+          <div class="md:col-span-2">
+            <h3 class="text-2xl font-semibold">About Me</h3>
+            <p class="mt-3 text-gray-300">
+              I'm a passionate 2nd-year B.Tech student with a strong foundation in programming (C++, Python) and
+              data tools (Pandas, NumPy, Tableau). I enjoy converting real-world problems into robust code and
+              exploring AI/ML to build intelligent systems. I prefer hands-on learning — building projects, competing
+              in coding platforms, and contributing to open source.
+            </p>
+
+            <div class="mt-6">
+              <h4 class="font-medium">Experience</h4>
+              <div class="mt-3 space-y-3 text-gray-300">
+                <div class="p-4 bg-gray-900 border border-gray-800 rounded-lg">
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <div class="font-semibold">Data Analyst Intern</div>
+                      <div class="text-xs text-gray-400">International Institute of SDGs and Public Policy Research</div>
+                    </div>
+                    <div class="text-xs text-gray-400">Past</div>
+                  </div>
+                  <p class="mt-3 text-sm">Worked on data cleaning, visualization and building dashboards to support research projects.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <aside class="p-6 bg-gray-900 border border-gray-800 rounded-lg">
+            <h4 class="font-semibold">Education</h4>
+            <p class="mt-2 text-gray-300 text-sm">B.Tech in Computer Engineering — IAR College (2023–2027)</p>
+
+            <h4 class="mt-6 font-semibold">Quick Facts</h4>
+            <ul class="mt-2 text-gray-300 text-sm space-y-2">
+              <li>Strong in: C++, Python, SQL</li>
+              <li>Interests: AIML, DSA, Full-stack Dev</li>
+              <li>Tools: Tableau, Proteus, Git</li>
+            </ul>
+          </aside>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="py-8">
+          <h3 class="text-2xl font-semibold">Selected Projects</h3>
+          <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+            <article class="p-6 bg-gray-900 border border-gray-800 rounded-lg">
+              <div class="flex items-start justify-between">
+                <div>
+                  <h4 class="font-semibold">AI-Driven Recommendation System</h4>
+                  <p class="text-sm text-gray-400 mt-1">Python • Machine Learning • Collaborative Filtering</p>
+                </div>
+                <div class="text-xs text-gray-400">Academic Project</div>
+              </div>
+              <p class="mt-3 text-gray-300 text-sm">Built a recommendation engine that combines collaborative filtering and content-based methods to recommend items; includes data preprocessing, model evaluation and a Flask demo.</p>
+              <div class="mt-4 flex gap-3">
+                <a href="#" class="text-xs py-2 px-3 rounded-xl border border-gray-700">View Repo</a>
+                <a href="#" class="text-xs py-2 px-3 rounded-xl border border-gray-700">Live Demo</a>
+              </div>
+            </article>
+
+            <article class="p-6 bg-gray-900 border border-gray-800 rounded-lg">
+              <div class="flex items-start justify-between">
+                <div>
+                  <h4 class="font-semibold">Employee Management App</h4>
+                  <p class="text-sm text-gray-400 mt-1">React • Node.js • Cloudinary</p>
+                </div>
+                <div class="text-xs text-gray-400">Full-stack</div>
+              </div>
+              <p class="mt-3 text-gray-300 text-sm">Full-stack CRUD app with file uploads (Cloudinary), employee listing and search, and role-based actions (create, update, delete).</p>
+              <div class="mt-4 flex gap-3">
+                <a href="#" class="text-xs py-2 px-3 rounded-xl border border-gray-700">View Repo</a>
+                <a href="#" class="text-xs py-2 px-3 rounded-xl border border-gray-700">Preview</a>
+              </div>
+            </article>
+
+            <article class="p-6 bg-gray-900 border border-gray-800 rounded-lg md:col-span-2">
+              <div class="flex items-start justify-between">
+                <div>
+                  <h4 class="font-semibold">Data Analytics Dashboards</h4>
+                  <p class="text-sm text-gray-400 mt-1">Tableau • Pandas • Data Cleaning</p>
+                </div>
+                <div class="text-xs text-gray-400">Internship / Projects</div>
+              </div>
+              <p class="mt-3 text-gray-300 text-sm">Multiple dashboards built in Tableau and Python to visualize trends, KPIs and insights for research projects and college assignments.</p>
+              <div class="mt-4 flex gap-3">
+                <a href="#" class="text-xs py-2 px-3 rounded-xl border border-gray-700">View Dashboards</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="py-8">
+          <h3 class="text-2xl font-semibold">Skills & Tools</h3>
+          <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="p-6 bg-gray-900 border border-gray-800 rounded-lg">
+              <h4 class="font-medium">Programming</h4>
+              <ul class="mt-3 text-gray-300 text-sm space-y-2">
+                <li>C++ (DSA, OOP)</li>
+                <li>Python (Pandas, NumPy)</li>
+                <li>SQL</li>
+              </ul>
+            </div>
+
+            <div class="p-6 bg-gray-900 border border-gray-800 rounded-lg">
+              <h4 class="font-medium">Data & AI</h4>
+              <ul class="mt-3 text-gray-300 text-sm space-y-2">
+                <li>Machine Learning (scikit-learn)</li>
+                <li>Data Visualization (Tableau, Matplotlib)</li>
+                <li>Recommendation Systems</li>
+              </ul>
+            </div>
+
+            <div class="p-6 bg-gray-900 border border-gray-800 rounded-lg">
+              <h4 class="font-medium">Tools</h4>
+              <ul class="mt-3 text-gray-300 text-sm space-y-2">
+                <li>Git & GitHub</li>
+                <li>Proteus (circuit simulations)</li>
+                <li>VS Code, Postman</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="py-8">
+          <h3 class="text-2xl font-semibold">Contact</h3>
+          <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="p-6 bg-gray-900 border border-gray-800 rounded-lg">
+              <p class="text-gray-300">Want to collaborate or offer an internship? Reach out!</p>
+              <div class="mt-4 space-y-2 text-sm text-gray-300">
+                <div><strong>Email:</strong> <a href="mailto:your-email@example.com" class="text-indigo-300">your-email@example.com</a></div>
+                <div><strong>LinkedIn:</strong> <a href="#" class="text-indigo-300">linkedin.com/in/your-profile</a></div>
+                <div><strong>GitHub:</strong> <a href="#" class="text-indigo-300">github.com/your-username</a></div>
+              </div>
+
+              <div class="mt-6">
+                <a href="mailto:your-email@example.com" class="inline-block px-5 py-3 rounded-2xl bg-indigo-600 hover:bg-indigo-500 font-medium">Email Me</a>
+              </div>
+            </div>
+
+            <form class="p-6 bg-gray-900 border border-gray-800 rounded-lg" onsubmit="event.preventDefault(); alert('Thanks! Replace with a real form handler or connect to an email service.');">
+              <div class="grid grid-cols-1 gap-4">
+                <input class="p-3 rounded-lg bg-gray-800 border border-gray-700 text-sm" placeholder="Your name" required />
+                <input class="p-3 rounded-lg bg-gray-800 border border-gray-700 text-sm" placeholder="Your email" type="email" required />
+                <textarea class="p-3 rounded-lg bg-gray-800 border border-gray-700 text-sm" rows="4" placeholder="Message" required></textarea>
+                <button class="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 font-medium">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <footer class="mt-12 border-t border-gray-800 pt-6 text-center text-sm text-gray-400">© 2025 Parth • Built with HTML & Tailwind Play CDN • Open to internships & collaborations</footer>
+      </main>
+    </div>
+  </body>
+</html>
